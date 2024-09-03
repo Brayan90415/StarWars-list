@@ -1,0 +1,57 @@
+.star-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+
+    width: 100%;
+}
+
+.personagem{
+    background-color: #b4d4d1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.personagem .name{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: black;
+    font-family: 'SF Distant Galaxy', sans-serif;
+}
+
+.personagem img{
+    height: 300px;
+}
+
+.personagem .detail{
+    display: flex;
+    justify-content: space-around;
+}
+
+.personagem .description{
+    padding: 2rem;
+    border: black 1px solid;
+    width: 100%;
+
+    display: flex;
+}
+
+@media screen and (max-width: 660px){
+    .personagem .detail{
+        flex-direction: column-reverse;
+    }
+
+    .personagem img{
+        width: 100%;}  
+}

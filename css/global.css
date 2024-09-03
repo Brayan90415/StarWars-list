@@ -1,0 +1,21 @@
+*{
+    font-family: 'SF Distant Galaxy', sans-serif;
+}
+
+body{
+    background-color: rgb(29, 25, 25);
+}
+
+.title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container{
+    padding: 0;
+    background-color: rgb(71, 66, 66);
+}
